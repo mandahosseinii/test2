@@ -1,0 +1,55 @@
+﻿Build started 01/08/1396 09:42:54 ق.ظ.
+     1>Project "c:\Users\mandana\documents\visual studio 2010\Projects\test vc\test vc\test vc.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\test vc.lastbuildstate".
+       InitializeBuildStatus:
+         Touching "Debug\test vc.unsuccessfulbuild".
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\test vc.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt Stdafx.cpp /clr:nostdlib 
+         Stdafx.cpp
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\test vc.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt "..\..\Kodiak-master\Kodiak-master\src\Bifurcation.cpp" "..\..\Kodiak-master\Kodiak-master\src\Bool.cpp" "..\..\Kodiak-master\Kodiak-master\src\MinMax.cpp" "..\..\Kodiak-master\Kodiak-master\src\MinMaxSystem.cpp" "..\..\Kodiak-master\Kodiak-master\src\Node.cpp" "..\..\Kodiak-master\Kodiak-master\src\Paver.cpp" "..\..\Kodiak-master\Kodiak-master\src\Real.cpp" "..\..\Kodiak-master\Kodiak-master\src\System.cpp" "..\..\Kodiak-master\Kodiak-master\src\types.cpp" AssemblyInfo.cpp /clr:nostdlib 
+         Bifurcation.cpp
+     1>..\..\Kodiak-master\Kodiak-master\src\Bifurcation.cpp(8): warning C4627: '#include "Bifurcation.hpp"': skipped when looking for precompiled header use
+                 Add directive to 'StdAfx.h' or rebuild precompiled header
+     1>..\..\Kodiak-master\Kodiak-master\src\Bifurcation.cpp(222): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         Bool.cpp
+     1>..\..\Kodiak-master\Kodiak-master\src\Bool.cpp(1): warning C4627: '#include "Bool.hpp"': skipped when looking for precompiled header use
+                 Add directive to 'StdAfx.h' or rebuild precompiled header
+     1>..\..\Kodiak-master\Kodiak-master\src\Bool.cpp(106): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         MinMax.cpp
+     1>..\..\Kodiak-master\Kodiak-master\src\MinMax.cpp(1): warning C4627: '#include "MinMax.hpp"': skipped when looking for precompiled header use
+                 Add directive to 'StdAfx.h' or rebuild precompiled header
+     1>..\..\Kodiak-master\Kodiak-master\src\MinMax.cpp(86): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         MinMaxSystem.cpp
+     1>..\..\Kodiak-master\Kodiak-master\src\MinMaxSystem.cpp(1): warning C4627: '#include "MinMaxSystem.hpp"': skipped when looking for precompiled header use
+                 Add directive to 'StdAfx.h' or rebuild precompiled header
+     1>..\..\Kodiak-master\Kodiak-master\src\MinMaxSystem.cpp(377): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         Node.cpp
+     1>..\..\Kodiak-master\Kodiak-master\src\Node.cpp(1): warning C4627: '#include "Node.hpp"': skipped when looking for precompiled header use
+                 Add directive to 'StdAfx.h' or rebuild precompiled header
+     1>..\..\Kodiak-master\Kodiak-master\src\Node.cpp(1553): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         Paver.cpp
+     1>..\..\Kodiak-master\Kodiak-master\src\Paver.cpp(1): warning C4627: '#include "Paver.hpp"': skipped when looking for precompiled header use
+                 Add directive to 'StdAfx.h' or rebuild precompiled header
+     1>..\..\Kodiak-master\Kodiak-master\src\Paver.cpp(609): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         Real.cpp
+     1>..\..\Kodiak-master\Kodiak-master\src\Real.cpp(1): warning C4627: '#include "Node.hpp"': skipped when looking for precompiled header use
+                 Add directive to 'StdAfx.h' or rebuild precompiled header
+     1>..\..\Kodiak-master\Kodiak-master\src\Real.cpp(1313): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         System.cpp
+     1>..\..\Kodiak-master\Kodiak-master\src\System.cpp(1): warning C4627: '#include "System.hpp"': skipped when looking for precompiled header use
+                 Add directive to 'StdAfx.h' or rebuild precompiled header
+     1>..\..\Kodiak-master\Kodiak-master\src\System.cpp(271): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         types.cpp
+     1>..\..\Kodiak-master\Kodiak-master\src\types.cpp(1): warning C4627: '#include "types.hpp"': skipped when looking for precompiled header use
+                 Add directive to 'StdAfx.h' or rebuild precompiled header
+     1>..\..\Kodiak-master\Kodiak-master\src\types.cpp(605): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         AssemblyInfo.cpp
+         Generating Code...
+     1>Done Building Project "c:\Users\mandana\documents\visual studio 2010\Projects\test vc\test vc\test vc.vcxproj" (rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.89
